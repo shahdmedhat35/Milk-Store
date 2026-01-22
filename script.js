@@ -1,7 +1,7 @@
 
 const cards = [
     { id: 'card1', image: 'images/bg1.png',color: '#c27391' ,name:'Blueberry Burst' ,bg_color: '#e29eba', txt_color:'#9e4f6d'},
-    { id: 'card2', image: 'images/bg2.png' ,color: '#fcaaba' ,name:'Strawberry Bliss' ,bg_color: '#fec5d0', txt_color:'#e16880'},
+    { id: 'card2', image: 'images/bg2.png' ,color: '#fcaaba' ,name:'Strawberry Bliss' ,bg_color: '#fec5d0', txt_color:'#e3768c'},
     { id: 'card3', image: 'images/bg3.png' ,color: '#f8e493' ,name:'Banana Cream' ,bg_color: '#fceebf', txt_color:'#e5c64c'},
     { id: 'card4', image: 'images/bg4.png' ,color: '#b67c5a' ,name:'Chocolate Dream' ,bg_color: '#d3a88b', txt_color:'#9b694d'},
     { id: 'card5', image: 'images/bg5.png' ,color: '#dceca8' ,name:'Mint Fresh' ,bg_color: '#ebf3ca', txt_color:'#b5ca70'},
