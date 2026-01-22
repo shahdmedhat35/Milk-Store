@@ -1,0 +1,145 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    width:100%;
+    height:700px;
+    background-color: aliceblue;
+    font-family: "Nunito", sans-serif;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+header
+{
+    width:100%;
+    height:65px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 75px;
+}
+#head_container
+{
+    display: flex;
+    flex-direction: row;
+}
+#logo
+{
+    width:100px;
+    height:35px;
+}
+header ul{
+   list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+#iconlist li
+{
+   margin: 0 10px;
+   font-size: 20px;
+   
+}
+#navbar li
+{
+    margin: 0px 20px;
+    font-size: 19px;
+}
+#num
+{
+    padding: 7px 10px;
+    border-radius: 3px;
+    background-color: #000;
+    color:#fff;
+    font-size: 19px;
+    font-weight: 500;
+}
+#container
+{
+    width: 100%;
+    height:70%;
+    background-color:transparent;
+    display:flex;
+    flex-direction: row;
+    padding:10px 1.5%;
+    overflow-x: scroll;
+    align-items: center;
+    scrollbar-width:none;
+    margin: 70px 0;
+    gap: 17px;
+}
+.card
+{
+    width:240px;
+    height:390px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+    padding: 25px 0;
+    flex-shrink:0; 
+    transform: scale(1);
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.name
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+.status
+{
+    color:#515151;
+    font-size: 17px;
+    font-weight: 400;
+}
+.circle
+{
+    display: flex;
+    width:165px;
+    height: 165px;
+    border-radius: 50%;
+    background-color: black;
+    overflow: visible;
+    align-items: center;
+    text-align: center;
+}
+.btns
+{
+    width:50%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    color:#fff;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.btns:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.card img
+{
+    width:145px;
+    height:230px;
+    margin-left: 10px;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.card:hover 
+{
+   transform: scale(1.09);
+   box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+.card:hover .circle img
+{
+    transform: scale(1.09);
+}

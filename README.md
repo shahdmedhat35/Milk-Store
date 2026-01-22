@@ -1,4 +1,4 @@
-# 🥛 Milk Store - Interactive Product Cards
+# 🥛 Milk Shop - Interactive Product Cards
 
 ![Preview](preview.png)
 
