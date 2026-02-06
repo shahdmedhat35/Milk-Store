@@ -6,7 +6,7 @@
 A visually appealing front-end interface for a milk products shop featuring interactive product cards with hover effects and dynamic color theming.
 
 ## ✨ Live Demo
-👉 [View Live Project](https://your-username.github.io/milk-shop)
+👉 [View Live Project]((https://vimeo.com/1162395359?fl=ip&fe=ec))
 
 ## 🎯 Features
 - 🎨 **6 Interactive Product Cards** with unique color schemes
