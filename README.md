@@ -1,6 +1,7 @@
 # 🥛 Milk Shop - Interactive Product Cards
 
-![Preview](preview.png)
+<img width="1920" height="1080" alt="Screenshot (694)" src="https://github.com/user-attachments/assets/f2360a76-0d3a-4a2a-ba11-195925dcbd15" />
+
 
 A visually appealing front-end interface for a milk products shop featuring interactive product cards with hover effects and dynamic color theming.
 
